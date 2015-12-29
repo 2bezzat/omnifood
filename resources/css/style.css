@@ -34,5 +34,52 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #d35400;
+    border: 1px solid #d35400;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #d35400;
+    color: #d35400;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #a04000;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #a04000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #a04000;
+    color: #fff;
 }
