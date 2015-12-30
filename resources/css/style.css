@@ -78,6 +78,7 @@ h2:after {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    text-align: center
 }
 /* --------- PARAGRAPHS ---------*/
 .long-copy {
@@ -90,6 +91,7 @@ h3 {
 .box p {
     font-size: 90%;
     line-height: 145%;
+    text-align: justify;
 }
 /* --------- ICONS ---------*/
 .icon-big {
@@ -97,6 +99,7 @@ h3 {
     display: block;
     color: #d35400;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* --------- BUTTONS ---------*/
